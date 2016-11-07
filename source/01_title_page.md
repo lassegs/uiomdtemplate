@@ -15,12 +15,12 @@ and add the centred logo
         \vspace*{1.2cm}
 
         \Huge
-        RAILS
+        Overskriten er her
 
         \vspace{0.8cm}
 
         \Large
-        Lasse Gullvåg Sætre
+        Forfatternavn
 
         \vspace{0.4cm}
 
@@ -35,11 +35,11 @@ and add the centred logo
 
         \normalsize
         Supervised by:\\
-        Tone Druglitrø and Helge Ryggvik
+        Steve Smith and Peter Griffin
 
         \normalsize
         University of Oslo\\
-        Norway, May 2017
+        Norway, Month Year
 
 
 
