@@ -1,6 +1,6 @@
 # RAILS thesis in markdown
 
-This repository provides a framework for writing my master thesis in Markdown. This is a private repository and should not be shared without Lasse's permission. It is based off of [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.58490.svg)](http://dx.doi.org/10.5281/zenodo.58490)
+This repository provides a framework for writing master thesis in Markdown at UIO. Full explenation can be found [here](https://github.com/tompollard/phd_thesis_markdown/tree/v1.0), which this is based off of [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.58490.svg)](http://dx.doi.org/10.5281/zenodo.58490)
 
 ## How is the repository organised?
 
