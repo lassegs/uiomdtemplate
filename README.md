@@ -1,6 +1,6 @@
-# RAILS thesis in markdown
+# UiO thesis in markdown
 
-This repository provides a framework for writing master thesis in Markdown at UIO. Full explenation can be found [here](https://github.com/tompollard/phd_thesis_markdown/tree/v1.0), which this is based off of [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.58490.svg)](http://dx.doi.org/10.5281/zenodo.58490)
+This repository provides a framework for writing a master thesis or PHD at UIO in Markdown. Full explanation can be found [here](https://github.com/tompollard/phd_thesis_markdown/tree/v1.0), which this is based off of [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.58490.svg)](http://dx.doi.org/10.5281/zenodo.58490)
 
 ## How is the repository organised?
 
