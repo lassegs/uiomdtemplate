@@ -12,10 +12,10 @@ and add the centred logo
     % to remove the UCL header logo
     % \ThisULCornerWallPaper{1.0}{style/univ_logo.eps}
 
-        \vspace*{1.2cm}
+        \vspace*{1.2cm} 
 
         \Huge
-        Overskriten er her
+        Overskrift her
 
         \vspace{0.8cm}
 
@@ -35,7 +35,7 @@ and add the centred logo
 
         \normalsize
         Supervised by:\\
-        Steve Smith and Peter Griffin
+        Eilert Sundt
 
         \normalsize
         University of Oslo\\
