@@ -2,7 +2,7 @@ PY=python
 PANDOC=pandoc
 
 BASEDIR=$(CURDIR)
-INPUTDIR=$(BASEDIR)/source
+INPUTDIR=$(BASEDIR)/1.Draft
 OUTPUTDIR=$(BASEDIR)/output
 TEMPLATEDIR=$(INPUTDIR)/templates
 STYLEDIR=$(BASEDIR)/style
@@ -25,7 +25,7 @@ help:
 	@echo 'or generic ones from: https://github.com/jgm/pandoc-templates		  '
 
 pdf:
-	pandoc "$(INPUTDIR)"/*.md \
+	pandoc "$(INPUTDIR)"/*/*.md \
 	-o "$(OUTPUTDIR)/thesis.pdf" \
 	-H "$(STYLEDIR)/preamble.tex" \
 	--template="$(STYLEDIR)/template.tex" \
@@ -40,7 +40,7 @@ pdf:
 	--verbose
 
 tex:
-	pandoc "$(INPUTDIR)"/*.md \
+	pandoc "$(INPUTDIR)"/*/*.md \
 	-o "$(OUTPUTDIR)/thesis.tex" \
 	-H "$(STYLEDIR)/preamble.tex" \
 	--bibliography="$(BIBFILE)" \
@@ -52,14 +52,14 @@ tex:
 	--latex-engine=xelatex
 
 docx:
-	pandoc "$(INPUTDIR)"/*.md \
+	pandoc "$(INPUTDIR)"/*/*.md \
 	-o "$(OUTPUTDIR)/thesis.docx" \
 	--bibliography="$(BIBFILE)" \
 	--csl="$(STYLEDIR)/ref_format.csl" \
 	--toc
 
 html:
-	pandoc "$(INPUTDIR)"/*.md \
+	pandoc "$(INPUTDIR)"/*/*.md \
 	-o "$(OUTPUTDIR)/thesis.html" \
 	--standalone \
 	--template="$(STYLEDIR)/template.html" \

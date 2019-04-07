@@ -1,0 +1,5 @@
+
+Praktisk info om denne templaten
+
+- each chapter must finish with at least one blank line, otherwise the header of the following chapter may not be picked up.
+- add two spaces at the end of a line to force a line break.

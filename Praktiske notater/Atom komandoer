@@ -1,0 +1,7 @@
+
+<!-- 
+Comments can be added like this.
+--> 
+
+Figure \ref{ref_a_figure} 
+![blablabla... \label{ref_a_figure}](source/figures/example_figure.pdf)
