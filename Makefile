@@ -60,7 +60,7 @@ docx:
 
 html:
 	pandoc "$(INPUTDIR)"/*/*.md \
-	-o "$(OUTPUTDIR)/thesis.html" \
+	-o "docs/thesis.html" \
 	--standalone \
 	--template="$(STYLEDIR)/template.html" \
 	--bibliography="$(BIBFILE)" \
