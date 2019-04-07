@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta name="generator" content="pandoc" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+                        <title></title>
+        <style type="text/css">code{white-space: pre;}</style>
+                                                    <style>
+            body {
+                font-family: Georgia;
+                max-width: 800px;
+                margin: 0 auto;
+                line-height: 30px;
+                font-size: 18px;
+                padding-left: 350px;
+                padding-right: 50px;
+                color: #111;
+            }
+            
+            h1, h2, h3, h4, h5, h6 {
+                font-family: Arial;
+            }
+            
+            h1 {
+                padding-top: 200px;
+                line-height: 50px;
+            }
+            h2 {
+                padding-top: 30px;
+            }
+            h3 {
+                padding-top: 20px;
+            }
+            h4 {
+                padding-top: 10px;
+            }
+            p {
+                text-align: justify;
+            }
+            p a {
+                word-wrap: break-word;
+                white-space: pre;
+            }
+            code {
+                word-wrap: break-word;
+            }
+            blockquote {
+                border-left: 3px solid #eee;
+                margin-left: 20px;
+                padding-left: 20px;
+            }
+            
+            ::selection {
+                background-color: #E4E4E4;
+            }
+            
+            table {
+                width: 100%;
+            }
+            table caption {
+                font-weight: bold;
+            }
+            table tr {
+                padding: 0;
+                margin: 0;
+                background-color: #f0f0f0;
+            }
+            table tr.even {
+                background-color: #fafafa;
+            }
+            table td {
+                margin: 0;
+                padding: 3px 5px;
+            }
+            
+            p span.added {
+                color: green;
+                background-color: #FFF3C5;
+            }
+            p span.removed {
+                color: red;
+                background-color: #FFF3C5;
+            }
+            
+            #title-page {
+                padding: 80px 0;
+            }
+            
+            #TOC {
+                position: fixed;
+                left: 0;
+                top: 0;
+                overflow-y: scroll;
+                height: 100%;
+                background: #fafafa;
+                max-width: 300px;
+                font-family: Arial;
+                font-size: 15px;
+                line-height: 30px;
+            }
+            ::-webkit-scrollbar {
+                width: 8px;
+            }
+            ::-webkit-scrollbar-track {
+                background-color: #ECECEC;
+            }
+            ::-webkit-scrollbar-thumb {
+                background-color: #B0B0B0;
+                border-radius: 8px;
+            }
+            #TOC > ul {
+                padding-right: 10px;
+            }
+            #TOC ul {
+                list-style: none;
+                padding-left: 20px;
+            }
+            #TOC ul li a {
+                text-decoration: none;
+                color: #364149;
+                text-overflow: ellipsis;
+                display: block;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            #TOC ul li a:hover {
+                color: #008cff;
+            }
+            
+            .figure {
+                text-align: center;
+            }
+            .figure p {
+                text-align: center;
+                font-style: italic;
+            }
+            .figure img {
+                  width: 100%;
+            }
+            </style>
+                <script src="js/jquery.js"></script>
+        <script src="js/diff.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+                <!--
+                -->
+        <div id="title-page">
+            <h1>This is the title of the thesis</h1>
+            <h2>Firstname Surname</h2>
+        </div>
+                    <div id="TOC">
+                <ul>
+                <li><a href="#abstract">Abstract</a></li>
+                <li><a href="#acknowledgements">Acknowledgements</a></li>
+                <li><a href="#list-of-figures">List of figures</a></li>
+                <li><a href="#list-of-tables">List of tables</a></li>
+                <li><a href="#abbreviations">Abbreviations</a></li>
+                <li><a href="#introduction"><span class="toc-section-number">1</span> Introduction</a><ul>
+                <li><a href="#background"><span class="toc-section-number">1.1</span> Background</a></li>
+                <li><a href="#the-middle-bit"><span class="toc-section-number">1.2</span> The middle bit</a><ul>
+                <li><a href="#subsection-of-the-middle-bit"><span class="toc-section-number">1.2.1</span> Subsection of the middle bit</a></li>
+                </ul></li>
+                <li><a href="#summary-of-chapters"><span class="toc-section-number">1.3</span> Summary of chapters</a></li>
+                </ul></li>
+                <li><a href="#research-containing-a-figure"><span class="toc-section-number">2</span> Research containing a figure</a><ul>
+                <li><a href="#introduction-1"><span class="toc-section-number">2.1</span> Introduction</a></li>
+                <li><a href="#method"><span class="toc-section-number">2.2</span> Method</a><ul>
+                <li><a href="#subsection-1"><span class="toc-section-number">2.2.1</span> Subsection 1</a></li>
+                <li><a href="#subsection-2"><span class="toc-section-number">2.2.2</span> Subsection 2</a></li>
+                </ul></li>
+                <li><a href="#results"><span class="toc-section-number">2.3</span> Results</a></li>
+                <li><a href="#discussion"><span class="toc-section-number">2.4</span> Discussion</a></li>
+                <li><a href="#conclusion"><span class="toc-section-number">2.5</span> Conclusion</a></li>
+                </ul></li>
+                <li><a href="#research-containing-a-figure-1"><span class="toc-section-number">3</span> Research containing a figure</a><ul>
+                <li><a href="#introduction-2"><span class="toc-section-number">3.1</span> Introduction</a></li>
+                <li><a href="#method-1"><span class="toc-section-number">3.2</span> Method</a><ul>
+                <li><a href="#subsection-1-1"><span class="toc-section-number">3.2.1</span> Subsection 1</a></li>
+                <li><a href="#subsection-2-1"><span class="toc-section-number">3.2.2</span> Subsection 2</a></li>
+                </ul></li>
+                <li><a href="#results-1"><span class="toc-section-number">3.3</span> Results</a></li>
+                <li><a href="#discussion-1"><span class="toc-section-number">3.4</span> Discussion</a></li>
+                <li><a href="#conclusion-1"><span class="toc-section-number">3.5</span> Conclusion</a></li>
+                <li><a href="#introduction-3"><span class="toc-section-number">3.6</span> Introduction</a></li>
+                <li><a href="#method-2"><span class="toc-section-number">3.7</span> Method</a></li>
+                <li><a href="#fellesskolen-og-tilpassing"><span class="toc-section-number">3.8</span> Fellesskolen og tilpassing</a><ul>
+                <li><a href="#det-kreerende-menneske"><span class="toc-section-number">3.8.1</span> Det kreerende menneske</a></li>
+                <li><a href="#læringsmål-som-ko-modifikasjon."><span class="toc-section-number">3.8.2</span> Læringsmål som ko-modifikasjon.</a></li>
+                </ul></li>
+                </ul></li>
+                <li><a href="#research-containing-a-figure-2"><span class="toc-section-number">4</span> Research containing a figure</a><ul>
+                <li><a href="#introduction-4"><span class="toc-section-number">4.1</span> Introduction</a></li>
+                <li><a href="#method-3"><span class="toc-section-number">4.2</span> Method</a><ul>
+                <li><a href="#subsection-1-2"><span class="toc-section-number">4.2.1</span> Subsection 1</a></li>
+                <li><a href="#subsection-2-2"><span class="toc-section-number">4.2.2</span> Subsection 2</a></li>
+                </ul></li>
+                <li><a href="#results-2"><span class="toc-section-number">4.3</span> Results</a></li>
+                <li><a href="#discussion-2"><span class="toc-section-number">4.4</span> Discussion</a></li>
+                <li><a href="#conclusion-2"><span class="toc-section-number">4.5</span> Conclusion</a></li>
+                </ul></li>
+                <li><a href="#research-containing-a-figure-3"><span class="toc-section-number">5</span> Research containing a figure</a><ul>
+                <li><a href="#introduction-5"><span class="toc-section-number">5.1</span> Introduction</a></li>
+                <li><a href="#method-4"><span class="toc-section-number">5.2</span> Method</a><ul>
+                <li><a href="#subsection-1-3"><span class="toc-section-number">5.2.1</span> Subsection 1</a></li>
+                <li><a href="#subsection-2-3"><span class="toc-section-number">5.2.2</span> Subsection 2</a></li>
+                </ul></li>
+                <li><a href="#results-3"><span class="toc-section-number">5.3</span> Results</a></li>
+                <li><a href="#discussion-3"><span class="toc-section-number">5.4</span> Discussion</a></li>
+                <li><a href="#conclusion-3"><span class="toc-section-number">5.5</span> Conclusion</a></li>
+                </ul></li>
+                <li><a href="#conclusion-4"><span class="toc-section-number">6</span> Conclusion</a><ul>
+                <li><a href="#thesis-summary"><span class="toc-section-number">6.1</span> Thesis summary</a></li>
+                <li><a href="#future-work"><span class="toc-section-number">6.2</span> Future work</a></li>
+                </ul></li>
+                <li><a href="#appendix-1-some-extra-stuff">Appendix 1: Some extra stuff</a></li>
+                <li><a href="#appendix-2-some-more-extra-stuff">Appendix 2: Some more extra stuff</a></li>
+                <li><a href="#references"><span class="toc-section-number">7</span> References</a></li>
+                <li><a href="#introduction-6"><span class="toc-section-number">8</span> Introduction</a></li>
+                </ul>
+            </div>
+                                <!--
+This is the Latex-heavy title page.
+People outside UCL may want to remove the header logo
+and add the centred logo
+-->
+
+<!-- This page is for an official declaration. -->
+<p>   </p>
+<h1 id="abstract" class="unnumbered">Abstract</h1>
+<!-- This is the abstract -->
+<p>The point of this thesis is to explore the politics and geographies of standardization. RAILS will X and Y.</p>
+<p> </p>
+<h1 id="acknowledgements" class="unnumbered">Acknowledgements</h1>
+<!-- This is for acknowledging all of the people who helped out -->
+<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam congue fermentum ante, semper porta nisl consectetur ut. Duis ornare sit amet dui ac faucibus. Phasellus ullamcorper leo vitae arcu ultricies cursus. Duis tristique lacus eget metus bibendum, at dapibus ante malesuada. In dictum nulla nec porta varius. Fusce et elit eget sapien fringilla maximus in sit amet dui.</p>
+<p>Mauris eget blandit nisi, faucibus imperdiet odio. Suspendisse blandit dolor sed tellus venenatis, venenatis fringilla turpis pretium. Donec pharetra arcu vitae euismod tincidunt. Morbi ut turpis volutpat, ultrices felis non, finibus justo. Proin convallis accumsan sem ac vulputate. Sed rhoncus ipsum eu urna placerat, sed rhoncus erat facilisis. Praesent vitae vestibulum dui. Proin interdum tellus ac velit varius, sed finibus turpis placerat.</p>
+<!-- Use the \newpage command to force a new page -->
+
+
+
+
+<h1 id="list-of-figures" class="unnumbered">List of figures</h1>
+<!--
+For me, this was the only drawback of writing in Markdown: it is not possible to add a short caption to figures and tables. This means that the \listoftables and \listoffigures commands will generate lists using the full titles, which is probably isn't what you want. For now, the solution is to create the lists manually, when everything else is finished.
+-->
+<p>Figure 4.1 This is an example figure . . . <br />
+Figure x.x Short title of the figure . . . </p>
+<p> </p>
+
+<h1 id="list-of-tables" class="unnumbered">List of tables</h1>
+<!-- 
+For me, this was the only drawback of writing in Markdown: it is not possible to add a short caption to figures and tables. This means that the \listoftables and \listoffigures commands will generate lists using the full titles, which is probably isn't what you want. For now, the solution is to create the lists manually, when everything else is finished.
+-->
+<p>Table 5.1 This is an example table . . . <br />
+Table x.x Short title of the figure . . . </p>
+<h1 id="abbreviations" class="unnumbered">Abbreviations</h1>
+
+
+<p> </p>
+<h1 id="introduction"><span class="header-section-number">1</span> Introduction</h1>
+<h2 id="background"><span class="header-section-number">1.1</span> Background</h2>
+<h2 id="the-middle-bit"><span class="header-section-number">1.2</span> The middle bit</h2>
+<h3 id="subsection-of-the-middle-bit"><span class="header-section-number">1.2.1</span> Subsection of the middle bit</h3>
+<h2 id="summary-of-chapters"><span class="header-section-number">1.3</span> Summary of chapters</h2>
+<p>This is a brief outline of what went into each chapter. <strong>Chapter 1</strong> gives a background on duis tempus justo quis arcu consectetur sollicitudin. <strong>Chapter 2</strong> discusses morbi sollicitudin gravida tellus in maximus. <strong>Chapter 3</strong> discusses vestibulum eleifend turpis id turpis sollicitudin aliquet. <strong>Chapter 4</strong> shows how phasellus gravida non ex id aliquet. Proin faucibus nibh sit amet augue blandit varius.</p>
+<h1 id="research-containing-a-figure"><span class="header-section-number">2</span> Research containing a figure</h1>
+<h2 id="introduction-1"><span class="header-section-number">2.1</span> Introduction</h2>
+<p>This is the introduction. Sed vulputate tortor at nisl blandit interdum. Cras sagittis massa ex, quis eleifend purus condimentum congue. Maecenas tristique, justo vitae efficitur mollis, mi nulla varius elit, in consequat ligula nulla ut augue. Phasellus diam sapien, placerat sit amet tempor non, lobortis tempus ante.</p>
+<h2 id="method"><span class="header-section-number">2.2</span> Method</h2>
+<p>Donec imperdiet, lectus vestibulum sagittis tempus, turpis dolor euismod justo, vel tempus neque libero sit amet tortor. Nam cursus commodo tincidunt.</p>
+<h3 id="subsection-1"><span class="header-section-number">2.2.1</span> Subsection 1</h3>
+<p>This is the first part of the methodology. Duis tempor sapien sed tellus ultrices blandit. Sed porta mauris tortor, eu vulputate arcu dapibus ac. Curabitur sodales at felis efficitur sollicitudin. Quisque at neque sollicitudin, mollis arcu vitae, faucibus tellus.</p>
+<h3 id="subsection-2"><span class="header-section-number">2.2.2</span> Subsection 2</h3>
+<p>This is the second part of the methodology. Sed ut ipsum ultrices, interdum ipsum vel, lobortis diam. Curabitur sit amet massa quis tortor molestie dapibus a at libero. Mauris mollis magna quis ante vulputate consequat. Integer leo turpis, suscipit ac venenatis pellentesque, efficitur non sem. Pellentesque eget vulputate turpis. Etiam id nibh at elit fermentum interdum.</p>
+<!-- 
+Comments can be added like this.
+-->
+<h2 id="results"><span class="header-section-number">2.3</span> Results</h2>
+<p>These are the results. In vitae odio at libero elementum fermentum vel iaculis enim. Nullam finibus sapien in congue condimentum. Curabitur et ligula et ipsum mollis fringilla.</p>
+<h2 id="discussion"><span class="header-section-number">2.4</span> Discussion</h2>
+<p>Figure  shows how to add a figure. Donec ut lacinia nibh. Nam tincidunt augue et tristique cursus. Vestibulum sagittis odio nisl, a malesuada turpis blandit quis. Cras ultrices metus tempor laoreet sodales. Nam molestie ipsum ac imperdiet laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+<div class="figure">
+<embed src="source/figures/example_figure.pdf" />
+<p class="caption">RV Calypso is a former British Royal Navy minesweeper converted into a research vessel for the oceanographic researcher Jacques-Yves Cousteau. It was equipped with a mobile laboratory for underwater field research. </p>
+</div>
+<h2 id="conclusion"><span class="header-section-number">2.5</span> Conclusion</h2>
+<p>This is the conclusion to the chapter. Quisque nec purus a quam consectetur volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In lorem justo, convallis quis lacinia eget, laoreet eu metus. Fusce blandit tellus tellus. Curabitur nec cursus odio. Quisque tristique eros nulla, vitae finibus lorem aliquam quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+<h1 id="research-containing-a-figure-1"><span class="header-section-number">3</span> Research containing a figure</h1>
+<h2 id="introduction-2"><span class="header-section-number">3.1</span> Introduction</h2>
+<p>This is the introduction. Sed vulputate tortor at nisl blandit interdum. Cras sagittis massa ex, quis eleifend purus condimentum congue. Maecenas tristique, justo vitae efficitur mollis, mi nulla varius elit, in consequat ligula nulla ut augue. Phasellus diam sapien, placerat sit amet tempor non, lobortis tempus ante.</p>
+<h2 id="method-1"><span class="header-section-number">3.2</span> Method</h2>
+<p>Donec imperdiet, lectus vestibulum sagittis tempus, turpis dolor euismod justo, vel tempus neque libero sit amet tortor. Nam cursus commodo tincidunt.</p>
+<h3 id="subsection-1-1"><span class="header-section-number">3.2.1</span> Subsection 1</h3>
+<p>This is the first part of the methodology. Duis tempor sapien sed tellus ultrices blandit. Sed porta mauris tortor, eu vulputate arcu dapibus ac. Curabitur sodales at felis efficitur sollicitudin. Quisque at neque sollicitudin, mollis arcu vitae, faucibus tellus.</p>
+<h3 id="subsection-2-1"><span class="header-section-number">3.2.2</span> Subsection 2</h3>
+<p>This is the second part of the methodology. Sed ut ipsum ultrices, interdum ipsum vel, lobortis diam. Curabitur sit amet massa quis tortor molestie dapibus a at libero. Mauris mollis magna quis ante vulputate consequat. Integer leo turpis, suscipit ac venenatis pellentesque, efficitur non sem. Pellentesque eget vulputate turpis. Etiam id nibh at elit fermentum interdum.</p>
+<!-- 
+Comments can be added like this.
+-->
+<h2 id="results-1"><span class="header-section-number">3.3</span> Results</h2>
+<p>These are the results. In vitae odio at libero elementum fermentum vel iaculis enim. Nullam finibus sapien in congue condimentum. Curabitur et ligula et ipsum mollis fringilla.</p>
+<h2 id="discussion-1"><span class="header-section-number">3.4</span> Discussion</h2>
+<p>Figure  shows how to add a figure. Donec ut lacinia nibh. Nam tincidunt augue et tristique cursus. Vestibulum sagittis odio nisl, a malesuada turpis blandit quis. Cras ultrices metus tempor laoreet sodales. Nam molestie ipsum ac imperdiet laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+<div class="figure">
+<embed src="source/figures/example_figure.pdf" />
+<p class="caption">RV Calypso is a former British Royal Navy minesweeper converted into a research vessel for the oceanographic researcher Jacques-Yves Cousteau. It was equipped with a mobile laboratory for underwater field research. </p>
+</div>
+<h2 id="conclusion-1"><span class="header-section-number">3.5</span> Conclusion</h2>
+<p>This is the conclusion to the chapter. Quisque nec purus a quam consectetur volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In lorem justo, convallis quis lacinia eget, laoreet eu metus. Fusce blandit tellus tellus. Curabitur nec cursus odio. Quisque tristique eros nulla, vitae finibus lorem aliquam quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+<h2 id="introduction-3"><span class="header-section-number">3.6</span> Introduction</h2>
+<h2 id="method-2"><span class="header-section-number">3.7</span> Method</h2>
+<h2 id="fellesskolen-og-tilpassing"><span class="header-section-number">3.8</span> Fellesskolen og tilpassing</h2>
+<p>Overgangen fra enhetsskolen til fellesskolen viser hvordan selve det skolen <em>var</em> ble forstått som å være i endring. Evnen til å romme et mangfold kunne sies å infrastruktureres.</p>
+<p>Fellesskolen er ment til å romme 'alle' typer lærende og markerer verdien av tilpassing.</p>
+<p>Jeg spør hva er det som tilpasses? Og hvordan skjer dette innenfor en felles kalkulerende ramme og målpraksis?</p>
+<p>Hva det er som tilpasses kan også ha å gjøre med friksjonen mellom ideene om teknikk og teknologi. Skal de lære på en annen måte kan dette bety å forventes å 'gjøre' andre ting, eller å 'bruke' andre ting. Jeg argumenterer for at det er tvetydigheten i teknologien som tillater flere forskjellige praksiser, eller 'utrykk'.</p>
+<h3 id="det-kreerende-menneske"><span class="header-section-number">3.8.1</span> Det kreerende menneske</h3>
+<p>Ideen om at alle bør få lære ved hjelp av middler tilpasset deres behov bygger på ideen om at alle kan lære. Selv om dette er en ide som vi skjelden stiller spørsmål ved i dag ønsker jeg å se på dette som en oppnåelse.</p>
+<p>Teorien som forklarer hva læring var, konstruktivismen, var viktig. Denne hadde kommet som en reaksjon på systematiseringen av læring på midten av det forrige århundre; det som kan beskrives som iterative arbeidsmåter. Konstruktivismen sier at grunnlaget for læring (kunnskap) allerede ligger i barnet.</p>
+<p>Grunnen til at det likevel skjedde en vending vekk fra konstruktivismen kan ha å gjøre med spørsmål om teknologiens rolle. I fagfornyelsen har man nettopp vektlagt nye teknikker.</p>
+<h3 id="læringsmål-som-ko-modifikasjon."><span class="header-section-number">3.8.2</span> Læringsmål som ko-modifikasjon.</h3>
+<p>Fagfornyelsen griper inn i lærernes historiske rolle. Den praktiske kunnskapen assosiert med folkeskolelæreren og den vitenskapelige kunnskapen assosiert med realskolens lektorer er begge deler knyttet til det å kunne bruke nye middler.</p>
+<p>Det teleologiske utgangspunktet assosiert med folkeskolens relsajon til kirken overkommer man når man får mulighet til å lære om samfunnet slik det 'er'.</p>
+<p>Når lærerne ikke lenger 'representerer' elevene innenfor en nasjonal ramme forståes læring som 'virtuell', som i 'tid'. Profesjonaliseringen av lærerne baserer seg sånn sett på en mer objektiv forstand, på den måten at læring kan forståes eksternt og samtidig være 'mer' menneskelig.</p>
+<p><em>Kreativitet og kvalitet</em></p>
+<p>Jeg forstår læring med utgangspunkt i en ide om kreativitet. Andre, sånn som Mcknight, har beskrevet hvordan kreativitet finnes i en friksjon mellom teknikk og teknologi. Altså mellom disiplin og nyskapelse.</p>
+<p>Kreativitet forståes som sammensettingen av forskjellige faglige elementer; å utvikle en mening.</p>
+<p>Det å gjøre elevene kreative er en produktiv makt. Sammensettingen av forskjellige elementer kan forstå som kvalitativt; som en slags estetisk intelligens; lek.</p>
+<p>Dette gjør barna mer menneskelige. Denne positive makten blir derfor også gjeldene innen det åpne koordineringsprogrammet i Europa. Som en form for koordinering er det noe jeg forstår i relasjon til det Callon kaller for 'alignment.'</p>
+<p>Målstyringen handler om alignment av 'den norske fellesskolen', men også å knytte et slags forfatterskap til elevene.</p>
+<p>** Kartleggingen av behov fra ulike grupper og perspektiver skaper samtidig et 'nå' som skiller seg fra måten barnet var menneskeliggjort tidligere.</p>
+<p>13-14 &quot;Livslang og livsvid læring Visjonen om livslang læring har dominert utdanningspolitiske dokumenter i mange tiår. På 90-tallet begynte visjonen å ta mer konkret form, blant annet gjennom Kompetansereformen og utvidederettigheter til grunnopplæring for voksne. Imidlertid lever fortsatt forestillingen om livslanglæring som «etterutdanning for voksne». Utvalgethar bevisst brutt med en slik forståelse og ser livslang læring som både en holdning til opplæring i kompetansesamfunnet, og konkrete tiltak for ådokumentere og realisere ny kompetanse. Utvalget definerer for eksempel barnehagen som endel av utdanningssystemet og en viktig plattformfor livslang læring. Perspektivet livslang læringforutsetter at den enkelte blir seg bevisst atlæring forgår gjennom hele livet, i skole, i arbeidsliv, fritid, familieaktiviteter og frivillig arbeid. Skal begrepet «livslang læring» kunne bli en realitet for flertallet av den voksne befolkningen,er det nødvendig å klarlegge behovene for ulike grupper, også utfra et generasjons- eller livsfase-perspektiv.&quot;</p>
+<hr />
+<h1 id="research-containing-a-figure-2"><span class="header-section-number">4</span> Research containing a figure</h1>
+<h2 id="introduction-4"><span class="header-section-number">4.1</span> Introduction</h2>
+<p>This is the introduction. Sed vulputate tortor at nisl blandit interdum. Cras sagittis massa ex, quis eleifend purus condimentum congue. Maecenas tristique, justo vitae efficitur mollis, mi nulla varius elit, in consequat ligula nulla ut augue. Phasellus diam sapien, placerat sit amet tempor non, lobortis tempus ante.</p>
+<h2 id="method-3"><span class="header-section-number">4.2</span> Method</h2>
+<p>Donec imperdiet, lectus vestibulum sagittis tempus, turpis dolor euismod justo, vel tempus neque libero sit amet tortor. Nam cursus commodo tincidunt.</p>
+<h3 id="subsection-1-2"><span class="header-section-number">4.2.1</span> Subsection 1</h3>
+<p>This is the first part of the methodology. Duis tempor sapien sed tellus ultrices blandit. Sed porta mauris tortor, eu vulputate arcu dapibus ac. Curabitur sodales at felis efficitur sollicitudin. Quisque at neque sollicitudin, mollis arcu vitae, faucibus tellus.</p>
+<h3 id="subsection-2-2"><span class="header-section-number">4.2.2</span> Subsection 2</h3>
+<p>This is the second part of the methodology. Sed ut ipsum ultrices, interdum ipsum vel, lobortis diam. Curabitur sit amet massa quis tortor molestie dapibus a at libero. Mauris mollis magna quis ante vulputate consequat. Integer leo turpis, suscipit ac venenatis pellentesque, efficitur non sem. Pellentesque eget vulputate turpis. Etiam id nibh at elit fermentum interdum.</p>
+<!-- 
+Comments can be added like this.
+-->
+<h2 id="results-2"><span class="header-section-number">4.3</span> Results</h2>
+<p>These are the results. In vitae odio at libero elementum fermentum vel iaculis enim. Nullam finibus sapien in congue condimentum. Curabitur et ligula et ipsum mollis fringilla.</p>
+<h2 id="discussion-2"><span class="header-section-number">4.4</span> Discussion</h2>
+<p>Figure  shows how to add a figure. Donec ut lacinia nibh. Nam tincidunt augue et tristique cursus. Vestibulum sagittis odio nisl, a malesuada turpis blandit quis. Cras ultrices metus tempor laoreet sodales. Nam molestie ipsum ac imperdiet laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+<div class="figure">
+<embed src="source/figures/example_figure.pdf" />
+<p class="caption">RV Calypso is a former British Royal Navy minesweeper converted into a research vessel for the oceanographic researcher Jacques-Yves Cousteau. It was equipped with a mobile laboratory for underwater field research. </p>
+</div>
+<h2 id="conclusion-2"><span class="header-section-number">4.5</span> Conclusion</h2>
+<p>This is the conclusion to the chapter. Quisque nec purus a quam consectetur volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In lorem justo, convallis quis lacinia eget, laoreet eu metus. Fusce blandit tellus tellus. Curabitur nec cursus odio. Quisque tristique eros nulla, vitae finibus lorem aliquam quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+<h1 id="research-containing-a-figure-3"><span class="header-section-number">5</span> Research containing a figure</h1>
+<h2 id="introduction-5"><span class="header-section-number">5.1</span> Introduction</h2>
+<p>This is the introduction. Sed vulputate tortor at nisl blandit interdum. Cras sagittis massa ex, quis eleifend purus condimentum congue. Maecenas tristique, justo vitae efficitur mollis, mi nulla varius elit, in consequat ligula nulla ut augue. Phasellus diam sapien, placerat sit amet tempor non, lobortis tempus ante.</p>
+<h2 id="method-4"><span class="header-section-number">5.2</span> Method</h2>
+<p>Donec imperdiet, lectus vestibulum sagittis tempus, turpis dolor euismod justo, vel tempus neque libero sit amet tortor. Nam cursus commodo tincidunt.</p>
+<h3 id="subsection-1-3"><span class="header-section-number">5.2.1</span> Subsection 1</h3>
+<p>This is the first part of the methodology. Duis tempor sapien sed tellus ultrices blandit. Sed porta mauris tortor, eu vulputate arcu dapibus ac. Curabitur sodales at felis efficitur sollicitudin. Quisque at neque sollicitudin, mollis arcu vitae, faucibus tellus.</p>
+<h3 id="subsection-2-3"><span class="header-section-number">5.2.2</span> Subsection 2</h3>
+<p>This is the second part of the methodology. Sed ut ipsum ultrices, interdum ipsum vel, lobortis diam. Curabitur sit amet massa quis tortor molestie dapibus a at libero. Mauris mollis magna quis ante vulputate consequat. Integer leo turpis, suscipit ac venenatis pellentesque, efficitur non sem. Pellentesque eget vulputate turpis. Etiam id nibh at elit fermentum interdum.</p>
+<!-- 
+Comments can be added like this.
+-->
+<h2 id="results-3"><span class="header-section-number">5.3</span> Results</h2>
+<p>These are the results. In vitae odio at libero elementum fermentum vel iaculis enim. Nullam finibus sapien in congue condimentum. Curabitur et ligula et ipsum mollis fringilla.</p>
+<h2 id="discussion-3"><span class="header-section-number">5.4</span> Discussion</h2>
+<p>Figure  shows how to add a figure. Donec ut lacinia nibh. Nam tincidunt augue et tristique cursus. Vestibulum sagittis odio nisl, a malesuada turpis blandit quis. Cras ultrices metus tempor laoreet sodales. Nam molestie ipsum ac imperdiet laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+<div class="figure">
+<embed src="source/figures/example_figure.pdf" />
+<p class="caption">RV Calypso is a former British Royal Navy minesweeper converted into a research vessel for the oceanographic researcher Jacques-Yves Cousteau. It was equipped with a mobile laboratory for underwater field research. </p>
+</div>
+<h2 id="conclusion-3"><span class="header-section-number">5.5</span> Conclusion</h2>
+<p>This is the conclusion to the chapter. Quisque nec purus a quam consectetur volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In lorem justo, convallis quis lacinia eget, laoreet eu metus. Fusce blandit tellus tellus. Curabitur nec cursus odio. Quisque tristique eros nulla, vitae finibus lorem aliquam quis. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+<h1 id="conclusion-4"><span class="header-section-number">6</span> Conclusion</h1>
+<!--
+A chapter that concludes the thesis by summarising the learning points
+and outlining future areas for research
+-->
+<h2 id="thesis-summary"><span class="header-section-number">6.1</span> Thesis summary</h2>
+<p>In summary, ...</p>
+<h2 id="future-work"><span class="header-section-number">6.2</span> Future work</h2>
+<p>There are several potential directions for extending this thesis.</p>
+<h1 id="appendix-1-some-extra-stuff" class="unnumbered">Appendix 1: Some extra stuff</h1>
+<!--
+This is a working document, not intended for the final draft.
+-->
+<p>This section draws up the plan for the week. Week 45: Preparing and arranging empirical studies * Goal: RQDA-coded key interviews from the Ryggvik/Jernbaneverket studies. The goal is to extract analytical keywords to select field of empirical studies from. * ERTMS where to begin? *<br />
+Week 46: Brussel site observation / interviews?</p>
+<p>Week 47: Writing down the spirit of commons Week 48:</p>
+<h1 id="appendix-2-some-more-extra-stuff" class="unnumbered">Appendix 2: Some more extra stuff</h1>
+<!--
+This could include extra figures or raw data
+-->
+<p>Add appendix 2 here.</p>
+
+<!-- 
+Do not edit this page.
+
+References are automatically generated from the BibTex file (References.bib)
+
+...which you should create using your reference manager.
+-->
+<h1 id="references"><span class="header-section-number">7</span> References</h1>
+<h1 id="introduction-6"><span class="header-section-number">8</span> Introduction</h1>
+            </body>
+</html>
+
