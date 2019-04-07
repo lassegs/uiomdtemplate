@@ -15,7 +15,7 @@ and add the centred logo
         \vspace*{1.2cm}
 
         \Huge
-        Velkommen hjem pappa
+        På nettet for alltiiiid
 
         \vspace{0.8cm}
 
