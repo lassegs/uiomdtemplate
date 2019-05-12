@@ -1,0 +1,11 @@
+
+Første gang jeg møtte på dybdelæring-begrepet var på en utdanningsteknologisk messe. Sammenhengen mellom dette nye analytiske feltet og utviklingen innen KI på den tiden virket slående. Denne nye formen for maskin læring var beskrevet som ’dyp’ på grunn av den dynamiske måten den etablerte hierarkier mellom ’fremvoksende’ analytiske lag. Måten dybdelæring-kritikken assosierte elevens læring og dens (selv)evaluering, lærerens ansvar og organiseringen av undervisningen, og skoleeiers analytiske ressurser og skolepolitiske tilknytting til den generelle delen av læreplanen var verdt å prøve å forstå hierarkisk. Spesielt på grunn av KL06 materielle struktur.
+
+* Tidligere var styringen topp-tung. Mens digitaliseringsstrategien sa at en skulle putte brukeren i 'sentrum'.
+
+
+Jeg hadde aldri sett Kunnskapsløftet i papirform, og det skulle vise seg at LK06 hadde aldri kommet i tekst. Hvordan grep denne infrastrukturereringen av utdanningen inn i pre-kognitive prosesser sånn som aktivitet. Hvordan håndterte skolen tekst som programvare og programvare som tekst? Og hvordan var dette sosialt?
+
+LK06 måtte forstås relasjonelt i tilknytting til KL06. KL06 var infrastruktur på den måten at det var usynlig og en fundamental del av måten det organisatoriske miljøet og profesjonelle kulturen ble gjort. Ludvgisen-utvalgets rapporter nevne ikke KL06 eller Grep i det hele tatt. Tvert om var det behandlet som en integrert del av LK06. Derimot var utvalget opptatt av å håndtere kompleksitet. Måten læreplanen knyttet sammen de autonome elementene av skolens sosiale nettverk (lærere, ledelse, skoleeier, osv.) var ved å selv opptre som fremvoksende og/eller åpent innenfor skolens digitaliserende rammer. Kunnskapsgrunnlaget assosiert med læreplanen fremsto derfor annerledes innenfor de forskjellige institusjonelle kontekstene/verdene.
+
+Målstyring handlet om at de med finansiell beslutningskraft også fikk ansvaret for skolen, der ansvarlighet er forstått som å måtte svare for. Skolen kunne ikke bruke ressurser som de selv ville, men kommunene måtte også svare for de investeringene i utvikling og forbedring som skjedde i demokratiet og befolkningen. Jeg husker man var bundet til å bruke MLG for å skape standarder for kommunikasjon innad i kommunen.

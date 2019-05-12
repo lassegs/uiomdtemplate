@@ -1,0 +1,6 @@
+
+I regjeringens digitaliseringsstrategi for grunnopplæringen 2017-2021 sto det at:
+«Det frie læremiddelmarkedet er en forutsetning for innovasjon og mangfold i læremidler. Regjeringen vil ikke regulere dette markedet, men bidra med tiltak som kan stimulere til økt kvalitet på tilbuds- og etterspørselssiden. Staten ønsker å legge til rette for gode valg av læremidler og for at det utvikles læremidler av høy kvalitet. Men det er skoleeier som er ansvarlig for hvilke læremidler som tas i bruk i opplæringen. Kommersielle og offentlig finansierte læremidler må også i framtiden kunne leve side om side.» (Kunnskapsdepartementet, 2017b, s. 19)
+
+Og den fortsetter:
+«Når skolen skal velge digitale læremidler er det derfor behov for også å vurdere hvordan læremiddelet utnytter det digitale mediets muligheter på ulike måter. Nye teknologier og bruk av store datamengder åpner for nye muligheter for adaptive læremidler og læringsanalyse, men krever også økt oppmerksomhet om kvalitet, etikk, personvern og informasjonssikkerhet. For lærere vil det være særlig utfordrende å vurdere hvilke forhåndsdefinerte valg som gjøres i et adaptivt læremiddel, for eksempel hva som måles, hvilket elev- og læringssyn som legges til grunn og hva slags oppgaver og lærestoff som blir tilgjengelig for hvilke elever.» (ibid)

@@ -1,0 +1,12 @@
+
+- livslang læring som utgangspunkt for politisk styring
+
+*«Vi ønsker en diskusjon og drøfting av de utfordringene som påpekes. Er det hold i vår påstand om at kravene i LK 06 forserer elevens utvikling og således er en (av flere) årsak til synkende læringsresultater blant elevene? Vi har foretatt en sammenlikning av Kunnskapsløftet (LK 06) og Læreplanen 97 (L97) og sett at forventningene til hva elever skal kunne, har økt dramatisk. Samtidig opplever mange lærere at det kan se ut som elevene kan stadig mindre.» (Andersen, Garaas, Norum, & Fredriksen, 2010)*
+
+Hvordan er de økte forventningene være ment å være beskyttende?
+
+
+Slik Thue (ibid, s. 93) skriver:
+«...et historisk perspektiv hjelper oss til å gripe «usamtidigheten i det samtidige». Et karakteristisk trekk ved de siste tiårenes skoleutvikling er at gamle og nye krav og forventninger eksisterer side om side i en skjør og uklar balanse. Siden 1990-årene har skolen blitt underlagt et styringsregime med sterk vekt på kunnskaps- og resultatmål. Kritiske pedagoger har talt om en ny instrumentalisme og om en restaurasjon av den tradisjonelle kunnskapsskolen. Kunnskapsløftets erklærte mål var imidlertid å ivareta og videreutvikle «det beste i grunnopplæringen i Norge» (Utdannings- og forskningsdepartementet 2013, s. 3). Telhaug og Mediås (2003, s. 331–334) har påpekt at en hovedlinje i etterkrigstidens sosialdemokratiske skoleutvikling – sosial integrasjon gjennom omsorg – på viktige områder ble forsterket gjennom 1990-årenes skolereformer: Kombinasjonen av full barnehagedekning, skolestart for seksåringer, utbygging av skolefritidsordningen og lovfestet rett til videregående utdanning utgjør i realiteten en kraftig utvidelse av enhetsskolen... Tittelen på en stortingsmelding fra Stoltenberg II-regjeringen, «... og ingen sto igjen» (St.meld. nr. 16 (2006–2007)), kan stå som en overskrift over denne ekspansive videreføringen av en omsorgsorientert enhetsskolepolitikk.
+
+Ekspansjonen av den omsorgsorienterte enhetsskolepolitikken grep likevel også inn i den samme modellen og den lærerrollen som den samme politikkens fremvekst på 1960-tallet. I likhet med idag var dette en tid da utdanningssystemets undergikk en voldsom vekst og en ny form for ’åpenhet’ utviklet seg. Ungdomsskolen, som har vært utgangspunkt for mitt studie av skolen, var et resultat av en utvidet obligatorisk skolegang og integrasjonen av to parallelle kretsløp og skolesystemer; folkeskolen og realskolen.
