@@ -15,7 +15,7 @@ and add the centred logo
         \vspace*{1.2cm}
 
         \Huge
-        Læring og Informasjon: En etnografi av skolens digitalisering og digitale infrastruktur
+        Læring og Informasjon: En flerlokalitetsetnografi av skolens digitaliserende lokasjoner
 
         \vspace{0.8cm}
 
@@ -24,7 +24,7 @@ and add the centred logo
 
         \vspace{0.4cm}
 
-        \includegraphics[width=0.8\textwidth]{style/uio.png}
+        \includegraphics[width=0.5\textwidth]{style/uio.png}
 
         \vspace{1.5cm}
 
@@ -34,7 +34,7 @@ and add the centred logo
         \vfill
 
         \normalsize
-        Supervised by:\\
+        Veiledet av:\\
         Susanne Bauer
 
         \normalsize
