@@ -1,7 +1,0 @@
-
-I første empiriske kapitell forklarer jeg forholdet mellom de generelle og de spesifikke delene av læreplanen og friksjonen mellom disse. Slik Thue har vist er sameksistensen av forskjellige reformer typisk for skolen, og andre har beskrevet i form av de mange objektene og infrastrukturene fra forskjellige perioder og prosjekter som eksisterer parallelt i skolen. Denne friksjonen er det som knytter fortid og fremtid sammen og som skaper grunnlaget for den fremvoksende situasjonen jeg beskriver i mine observasjoner. Det viser seg at måten læreplanen er bygget opp, og skillet mellom de relativt uavhengige delene (slik som grunnleggende ferdigheter) er produktivt i skapelsen av en metadata struktur knyttet til produksjonen og distribusjonen av digitale læringsobjekter.
-
-
-## Summary of chapters
-
-Her følger en oversikt over de forskjellige kapitellene. **Kapitel en 1** beskriver bakgrunnen for hvordan læring gjøres til et forskningsobjekt og hvordan den eksperimentelle kulturen i skolen endres. I **kapitel 2** ser jeg på læringsmålene som infrastruktur og hvordan læring som *aktivitet* får verdi innenfor det fremvoksende styringslandskapet innen utdanningen. **Kapitel 3** handler om skolen som organisasjon og hvordan en profesjonaliseringen av lærerrollen og ansvarliggjøringen av skoleeier forhandles frem innenfor en ny kalkulerende geografi. **Kapitel 4** beskriver hvordan muliggjøringen av dybdelæring i fremtidens skole åpner opp for deltagelsen av en rekke nye aktører tilknyttet læringens økonomi og den fremvoksende læringsteknologiske sektoren.

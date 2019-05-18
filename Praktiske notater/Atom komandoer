@@ -1,7 +1,17 @@
 
-<!-- 
+<!--
 Comments can be added like this.
---> 
+-->
 
-Figure \ref{ref_a_figure} 
-![blablabla... \label{ref_a_figure}](source/figures/example_figure.pdf)
+Figure \ref{ref_a_figure}
+![blablabla... \label{ref_a_figure}](Draft/figures/To forsider på generell læreplan.jpg)
+
+
+Figure \ref{ref_a_figure} shows how to add a figure.
+
+![RV Calypso is a former British Royal Navy minesweeper converted into a research vessel for the oceanographic researcher Jacques-Yves Cousteau. It was equipped with a mobile laboratory for underwater field research. \label{ref_a_figure}](source/figures/example_figure.pdf)
+
+
+<!-- Use the \newpage command to force a new page -->
+
+\newpage

@@ -15,12 +15,12 @@ and add the centred logo
         \vspace*{1.2cm}
 
         \Huge
-        På nettet for alltiiiid
+        Læring og Informasjon: En etnografi av skolens digitalisering og digitale infrastruktur
 
         \vspace{0.8cm}
 
         \Large
-        Forfatternavn
+        Frans Joakim Titulaer
 
         \vspace{0.4cm}
 
@@ -29,21 +29,21 @@ and add the centred logo
         \vspace{1.5cm}
 
         \normalsize
-        Master thesis at the Center for Technology, Innovation and Culture
+        Masteroppgave ved senteret for Teknologi, Innovasjon and Kultur
 
         \vfill
 
         \normalsize
         Supervised by:\\
-        Eilert Sundt
+        Susanne Bauer
 
         \normalsize
-        University of Oslo\\
-        Norway, Month Year
+        Universitetet i Oslo\\
+        Norge, Mai 2019
 
 
 
-        % Except where otherwise noted, content in this thesis is licensed under a Creative Commons Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. Copyright 2015,TomPollard, LasseGullvågSætre.
+        % Except where otherwise noted, content in this thesis is licensed under a Creative Commons Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. Copyright 2015,TomPollard, FransJoakimTitulaer.
 
     \end{center}
 \end{titlepage}

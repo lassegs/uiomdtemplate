@@ -1,7 +1,7 @@
 
 *Iterativt arbeid, refleksivitet og meta-kognisjon*
 
-Law skriver om algoritmens organisasjon og problematiserer den historiske beskrivelsen av hvordan organisasjonslivet siden midten av det forrige århundre har blitt dominert av iterative former for arbeid og organisering. Kritikken går ut på at denne ideen om repetative oppgaver ikke skaper et romm for at noe nytt kan oppstå.
+Law skriver om algoritmens organisasjon og problematiserer den historiske beskrivelsen av hvordan organisasjonslivet siden midten av det forrige århundre har blitt dominert av iterative former for arbeid og organisering. Kritikken går ut på at denne ideen om repetative oppgaver ikke skaper et rom for at noe nytt kan oppstå.
 
 Min interesse for dette handler om måten styringspraksisen i skolen er basert på et prinsipp om læring i organisasjonen som skal skape læring blant lærere som skal lære elever å lære igjennom læring. I dette forholdet ser jeg hvordan de forskjellige aktørene i skolen 'bruker' digitale verktøy, men hvordan de gjøres til brukere og hvordan en digital læringsidentitet mobiliseres i fornyelsen av fag og kompetanser innenfor (en) "fremtidens skole".
 
