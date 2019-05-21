@@ -2,7 +2,7 @@
 
 <!-- This is the abstract -->
 
-The point of this thesis is to explore the politics and geographies of standardization. RAILS will X and Y.
+Dette er et stykke poesi om en mann med navnet Kvamsås.
 
 \pagenumbering{roman}
 \setcounter{page}{1}
