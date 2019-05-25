@@ -36,6 +36,24 @@ pdf:
 	-V papersize=a4paper \
 	-V documentclass:report \
 	-V lang=norsk \
+	-M lang=nb-NO \
+	-N \
+	--latex-engine=xelatex \
+	--verbose
+
+pdf2:
+	pandoc "$(INPUTDIR)"/*/*.md \
+	-o "$(OUTPUTDIR)/thesis.pdf" \
+	-H "$(STYLEDIR)/preamble.tex" \
+	--template="$(STYLEDIR)/template.tex" \
+	--bibliography="$(BIBFILE)" 2>pandoc.log \
+	--csl="$(STYLEDIR)/ref_format.csl" \
+	--highlight-style pygments \
+	-V fontsize=12pt \
+	-V papersize=a4paper \
+	-V documentclass:report \
+	-V lang=norsk \
+	-M lang=nb-NO \
 	-N \
 	--latex-engine=xelatex \
 	--verbose
