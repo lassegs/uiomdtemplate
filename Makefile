@@ -57,7 +57,7 @@ pdf2:
 	-V mainfont='Times New Roman' \
 	-M lang=nb-NO \
 	-N \
-	--latex-engine=xelatex \
+	--pdf-engine=xelatex \
 	--verbose
 
 tex:
