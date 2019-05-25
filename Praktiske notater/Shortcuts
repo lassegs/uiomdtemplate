@@ -1,0 +1,4 @@
+
+Plain text workflow shortcuts:
+
+Compile: cd Documents/uiomdtemplate > make pdf > evince output/thesis.pdf
