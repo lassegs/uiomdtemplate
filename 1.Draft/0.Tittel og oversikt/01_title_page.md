@@ -15,7 +15,7 @@ and add the centred logo
         \vspace*{1.2cm}
 
         \Huge
-        Læring og informasjon: En etnografi av digitaliseringen av skolen
+        Læring, informasjon og digital ontologi
 
         \vspace{0.8cm}
 
