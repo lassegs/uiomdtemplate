@@ -12,3 +12,26 @@ I teks> (figur \ref{Forsider})
 <!-- Use the \newpage command to force a new page -->
 
 \newpage
+
+
+
+
+
+
+Citations go inside square brackets and are separated by semicolons. Each citation must have a key, composed of ‘@’ + the citation identifier from the database, and may optionally have a prefix, a locator, and a suffix. Here are some examples:
+
+   Blah blah [se @latourWeHaveNever2012, s. 33-35; også @ribesEthnographyScalingHow2014, kap. 1].
+
+   Blah blah [@latourWeHaveNever2012, s. 33-35, 38-39 og *testgreie*].
+
+   Blah blah [@ribesEthnographyScalingHow2014; @latourWeHaveNever2012].
+
+A minus sign (-) before the @ will suppress mention of the author in the citation. This can be useful when the author is already mentioned in the text:
+
+                                     Winchester says blah [-@ribesEthnographyScalingHow2014].
+
+                                     You can also write an in-text citation, as follows:
+
+                                     @ribesEthnographyScalingHow2014 says blah.
+
+                                     @ribesEthnographyScalingHow2014 [s. 33] says blah.
