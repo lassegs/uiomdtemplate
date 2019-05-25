@@ -35,6 +35,7 @@ pdf:
 	-V fontsize=12pt \
 	-V papersize=a4paper \
 	-V documentclass:report \
+	-V mainfont='Times New Roman' \
 	-V lang=norsk \
 	-M lang=nb-NO \
 	-N \
