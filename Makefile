@@ -37,7 +37,7 @@ pdf:
 	-V documentclass:report \
 	-V lang=norsk \
 	-N \
-	--pdf-engine=xelatex \
+	--latex-engine=xelatex \
 	--verbose
 
 tex:
