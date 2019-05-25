@@ -35,8 +35,9 @@ pdf:
 	-V fontsize=12pt \
 	-V papersize=a4paper \
 	-V documentclass:report \
+	-V lang=norsk \
 	-N \
-	--latex-engine=xelatex \
+	--pdf-engine=xelatex \
 	--verbose
 
 tex:
