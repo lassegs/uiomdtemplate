@@ -53,6 +53,7 @@ pdf2:
 	-V papersize=a4paper \
 	-V documentclass:report \
 	-V lang=norsk \
+	-V mainfont='Times New Roman' \
 	-M lang=nb-NO \
 	-N \
 	--pdf-engine=xelatex \
