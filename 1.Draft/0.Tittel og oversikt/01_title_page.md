@@ -12,21 +12,25 @@ and add the centred logo
     % to remove the UCL header logo
     % \ThisULCornerWallPaper{1.0}{style/univ_logo.eps}
 
-        \vspace*{1.2cm}
+        \vspace*{0.2cm}
 
         \Huge
-        Læring, informasjon og digital ontologi
-
-        \vspace{0.8cm}
-
+        Digital ontologi\\
         \Large
-        Frans Joakim Titulaer
+        Læring, informasjon og intelligenseringen av utdanningsteknologi
+
+        \vspace{0.3cm}
+
+        \normalsize
+        \emph{av Frans Joakim Titulaer} 
+
+        \vspace{0.3cm}
+        \begin{center}
+          \makebox[\textwidth]{\includegraphics[width=0.5\paperwidth]{style/uio.png}}
+        \end{center}
+        %\includegraphics[width=0.9\pagewidth]{style/uiologo.pdf}
 
         \vspace{0.4cm}
-
-        \includegraphics[width=0.5\textwidth]{style/uio.png}
-
-        \vspace{1.5cm}
 
         \normalsize
         Masteroppgave ved senteret for Teknologi, Innovasjon and Kultur
