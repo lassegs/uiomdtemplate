@@ -1,0 +1,14 @@
+
+<!--
+Comments can be added like this.
+-->
+
+![Forsidene til de generelle delen av læreplanen: L93 (v) og NOU 2015:8 (h). \label{Forsider}](1.Draft/figures/Forsider.jpg)
+
+I teks> (figur \ref{Forsider})
+
+
+
+<!-- Use the \newpage command to force a new page -->
+
+\newpage
